@@ -318,6 +318,10 @@ footer {
     margin-top: 1.5rem;
     padding-top: 1rem;
     border-top: 1px solid var(--light-gray);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .blog-read-more {
@@ -333,4 +337,22 @@ footer {
 
 .blog-read-more:hover {
     color: var(--secondary-color);
+}
+
+.blog-share-linkedin {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background-color: #0a66c2;
+    color: white;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none;
+    padding: 0.45rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.blog-share-linkedin:hover {
+    background-color: #004182;
 }
